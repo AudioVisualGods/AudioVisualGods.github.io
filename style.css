@@ -1,0 +1,248 @@
+body
+{
+    
+    background-color: white;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+}
+#wrapper{
+    
+}
+.my-header{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+
+#header_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    padding: 1.2em 0;
+    align-items: center;
+
+}
+
+#logo{
+  text-decoration: none;
+    color: black;
+}
+.text-logo{
+    padding: 0.5em 0;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    border-bottom: 5px solid blue;
+    
+}
+
+
+nav>ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    
+    
+    
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding-right: 20px;
+    font-family: 
+    
+    
+    
+    
+}
+
+
+    
+
+
+
+#banerek{
+    background-image: url(baner.jpg);
+    width: 100 %;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+    
+
+
+#section{
+    width: 100%;
+    height: 250px;
+}
+#section_start1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#section_start2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#section_start1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.wieksza{
+    width: 60%;
+    height: 500px;
+    
+    
+}
+.mniejsza{
+    width: 40%;
+    height: 500px;
+    
+}
+.tittlesection{
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid green;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.littletittle{
+     color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.uslugi_littletittle{
+     color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+#gallery{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    
+    
+
+}
+#gallery2{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    
+    
+
+}
+#gallery_start{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+    
+
+}
+.cwiartka{
+    
+    width: 50%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #539FC0;
+
+}
+.zdj{
+    width: 95%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 55px;
+    
+    padding-bottom: 20px;
+    }
+    
+    
+
+.zdj_start{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    
+    
+    padding-bottom: 20px;
+    
+    
+}
+.opis{
+    width: 95%;
+    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.tytulopis {
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.opisopis{
+    color: black;
+    
+   
+    
+}
+.zdj:hover{
+    background-color: #539FC0;
+    box-shadow: 0 0 150px 30px white;
+    transition: all ease-in-out .4s;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+        
+    
+}
+#copyright{
+    padding-right: 10px;
+}
+.my-header {position: fixed; width: 100%; height: 100px; padding-top: 1%; transition: all 0.4s ease;} 
+.my-header img {width: 100%;} 
+.my-header .logo {float: left; margin: 0;} 
+.my-header.sticky {height: 80px; background: #000000;} 
+.my-header.sticky .logo img{width: 80%; transition-duration: 0.2s; transition-timing-function: linear;}
