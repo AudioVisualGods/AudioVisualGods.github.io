@@ -292,16 +292,16 @@ p{
     margin-bottom: 10px;
 }
 #twarz-1{
-    background-image: url('images/pic03.jpg');
+    background-image: url(pic03.jpg)
 }
 #twarz-2{
-    background-image: url('images/pic04.jpg');
+    background-image: url(pic04.jpg)
 }
 #twarz-3{
-    background-image: url('images/pic05.jpg');
+    background-image: url(pic05.jpg)
 }
 #twarz-4{
-    background-image: url('images/pic06.jpg');
+    background-image: url(pic06.jpg)
 }}
 #art-2>h2{
     font-size: 40px;
