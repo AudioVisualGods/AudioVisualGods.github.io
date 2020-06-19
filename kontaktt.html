@@ -14,9 +14,33 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
      
     <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+        <script>
+        function zegarek()
+        {
+            var data = new Date();
+            var godzina = data.getHours();
+            var minuta = data.getMinutes();
+            var sekunda = data.getSeconds();
+            var dzien = data.getDate();
+            var dzienN = data.getDay();
+            var miesiac = data.getMonth();
+            var rok = data.getFullYear();
+           
+            if (minuta < 10) minuta = "0" + minuta;
+            if (sekunda < 10) sekunda = "0" + sekunda;
+           
+            var dni = new Array("niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota");
+            var miesiace = new Array("stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "września", "października", "listopada", "grudnia");
+           
+            var pokazDate = "Dzisiaj jest " + dni[dzienN] + ', ' + dzien + ' ' + miesiace[miesiac] + ' ' + rok + " roku.<br />Godzina " + godzina + ':' + minuta + ':' + sekunda;
+            document.getElementById("zegar").innerHTML = pokazDate;
+           
+            setTimeout(zegarek, 1000);            
+        }        
+    </script>
   
 </head>
-<body>
+<body onload="zegarek()">
    <div id="wrapper">
       <header class="my-header">
        <div id="header_content">
@@ -63,6 +87,10 @@
            <p>email: emil.strzelczak@gmail.com</p>
            <p>Tel: 565656565</p>
        </div>
+       <div id="mapa">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.981051983849!2d18.817811314587818!3d-34.06999998060112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdb547dd8ed7fb%3A0x4d8274734dd2bd64!2sAudio%20%26%20Visual%20Counsel!5e0!3m2!1spl!2spl!4v1592559920233!5m2!1spl!2spl" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       </div>
+       <div id="zegar"></div>
        
       
        <footer>
